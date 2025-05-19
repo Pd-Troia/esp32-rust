@@ -2,8 +2,7 @@ use webserver::web_server;
 
 mod webserver;
 
-fn main() {   
-   dotenv::dotenv().ok();
+fn main() {    
    let _ = web_server();
 }
  
